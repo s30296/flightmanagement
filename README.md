@@ -1,5 +1,5 @@
 # MPR-PROJEKT
-MPR Projekt - flightmanagement
+* MPR Projekt - flightmanagement
 
 Założenie projektu polega na możliwości tworzenia lotów i automatycznego dostosowania jego zależności na podstawie aktualnej pogody, jak również czasu lotu. Pozwala również na operacje CRUD pasażerów lotów.
 
@@ -15,12 +15,11 @@ JDCB URL: jdbc:h2:file:./database/database;DB_CLOSE_ON_EXIT=FALSE
 User Name: sa
 Password: password
 
-Ustawienie dla Postmana:
-Headers:
+- Ustawienie Headers dla Postmana:
 Key = Content-Type
 Value = application/json
 
-Przykładowe Body dla Request:
+- Przykładowe Body dla Request:
 1. Tworzenie miasta - http://localhost:8080/cities/create
     {
         "name": "Warsaw",
