@@ -22,7 +22,7 @@ Key = Content-Type
 Value = application/json
 ```
 - **Przykładowe Body dla Request**:
-    1. Tworzenie miasta - `http://localhost:8080/cities/create`
+    1. Tworzenie miasta (POST) - `http://localhost:8080/cities/create`
         ```json
         {
             "name": "Warsaw",
@@ -31,14 +31,14 @@ Value = application/json
             "longitude": 21.0122
         }
         ```
-    2. Tworzenie lotniska - `http://localhost:8080/airports/create`
+    2. Tworzenie lotniska (POST) - `http://localhost:8080/airports/create`
         ```json
         {
             "name": "WAW",
             "cityId": 1
         }
         ```
-    3. Tworzenie lotu - `http://localhost:8080/flights/create`
+    3. Tworzenie lotu (POST) - `http://localhost:8080/flights/create`
         ```json
         {
             "flightNumber": "ABCXYZ1234",
@@ -48,7 +48,7 @@ Value = application/json
             "arrivalAirportId": 2
         }
         ```
-    4. Tworzenie/Edycja pasażera - `http://localhost:8080/passengers/create`
+    4. Tworzenie/Edycja pasażera (POST) - `http://localhost:8080/passengers/create`
         ```json
         {
             "email": "jackblack@gmail.com",
@@ -57,7 +57,7 @@ Value = application/json
             "flights": [1, 2]
         }
         ```
-    5. Wydobycie aktualnych danych pogodowych dla miasta z API - `http://localhost:8080/weather/current`
+    5. Wydobycie aktualnych danych pogodowych dla miasta z API (POST) - `http://localhost:8080/weather/fetch`
         ```json
         {
             "cityName": "Warsaw"
