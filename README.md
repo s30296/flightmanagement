@@ -12,7 +12,7 @@ Endpointy projektu, pozwalają wyświetlać, tworzyć oraz usuwać dane z bazy d
 - **Połączenie z konsolą bazy danych**:
 ```
 http://localhost:8080/h2-console/login.jsp
-JDCB URL: jdbc:h2:file:./database/database;DB_CLOSE_ON_EXIT=FALSE
+JDBC URL: jdbc:h2:file:./database/database;DB_CLOSE_ON_EXIT=FALSE
 User Name: sa
 Password: password
 ```
