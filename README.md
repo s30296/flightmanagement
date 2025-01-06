@@ -48,7 +48,7 @@ Value = application/json
             "arrivalAirportId": 2
         }
         ```
-    4. Tworzenie/Edycja pasażera (POST) - `http://localhost:8080/passengers/create`
+    4. Tworzenie/Edycja pasażera (POST/PUT) - `http://localhost:8080/passengers/create` lub `http://localhost:8080/passengers/update`
         ```json
         {
             "email": "jackblack@gmail.com",
