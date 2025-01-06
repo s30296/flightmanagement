@@ -1,5 +1,5 @@
 # MPR-PROJEKT
-* MPR Projekt - flightmanagement
+MPR Projekt - flightmanagement
 
 Założenie projektu polega na możliwości tworzenia lotów i automatycznego dostosowania jego zależności na podstawie aktualnej pogody, jak również czasu lotu. Pozwala również na operacje CRUD pasażerów lotów.
 
