@@ -20,35 +20,44 @@ Key = Content-Type
 Value = application/json
 
 - Przykładowe Body dla Request:
-1. Tworzenie miasta - http://localhost:8080/cities/create
-    {
-        "name": "Warsaw",
-        "country": "Poland",
-        "latitude": 52.2297,
-        "longitude": 21.0122
-    }
-
-2. Tworzenie lotniska - http://localhost:8080/airports/create
-    {
-        "name": "WAW",
-        "cityId": 1
-    }
-3. Tworzenie lotu - http://localhost:8080/flights/create
-    {
-        "flightNumber": "ABCXYZ1234",
-        "flightLength": 2,
-        "departureTime": "2025-01-05T10:30:00",
-        "departureAirportId": 1,
-        "arrivalAirportId": 2
-    }
-4. Tworzenie/Edycja pasażera - http://localhost:8080/passengers/create
-    {
-        "email": "jackblack@gmail.com",
-        "firstName": "Jack",
-        "lastName": "Black",
-        "flights": [1, 2]
-    }
-5. Wydobycie akutalnych danych pogodowych dla miasta z API - http://localhost:8080/passengers/create
-    {
-        "cityName": "Warsaw"
-    }
+    1. Tworzenie miasta - `http://localhost:8080/cities/create`
+        ```json
+        {
+            "name": "Warsaw",
+            "country": "Poland",
+            "latitude": 52.2297,
+            "longitude": 21.0122
+        }
+        ```
+    2. Tworzenie lotniska - `http://localhost:8080/airports/create`
+        ```json
+        {
+            "name": "WAW",
+            "cityId": 1
+        }
+        ```
+    3. Tworzenie lotu - `http://localhost:8080/flights/create`
+        ```json
+        {
+            "flightNumber": "ABCXYZ1234",
+            "flightLength": 2,
+            "departureTime": "2025-01-05T10:30:00",
+            "departureAirportId": 1,
+            "arrivalAirportId": 2
+        }
+        ```
+    4. Tworzenie/Edycja pasażera - `http://localhost:8080/passengers/create`
+        ```json
+        {
+            "email": "jackblack@gmail.com",
+            "firstName": "Jack",
+            "lastName": "Black",
+            "flights": [1, 2]
+        }
+        ```
+    5. Wydobycie aktualnych danych pogodowych dla miasta z API - `http://localhost:8080/weather/current`
+        ```json
+        {
+            "cityName": "Warsaw"
+        }
+        ```
