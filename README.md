@@ -1,6 +1,8 @@
 # MPR-PROJEKT
 **MPR Projekt - flightmanagement**
 
+*Katalog projektu po pobraniu z GitHub może mieć nieco inną nazwę np. flightmanagement-main, w takim przypadku trzeba zmienić nazwę na `flightmanagement`*
+
 Założenie projektu polega na możliwości tworzenia lotów i automatycznego dostosowania jego zależności na podstawie aktualnej pogody, jak również czasu lotu. Pozwala również na więcej czynności w tym na operacje `CRUD` pasażerów lotów.
 
 Projekt podzieliłem na 3 moduły `model`, `service`, `web` by był bardziej czytelny.
