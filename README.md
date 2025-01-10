@@ -7,7 +7,7 @@ Projekt podzieliłem na 3 moduły `model`, `service`, `web` by był bardziej czy
 Jest rozdzielony na warstwy oraz 5 modeli, znajdują się w nim relacje bazodanowe, które wykorzystują `Derived Query Methods`.
 Używam `MapStruct` do mapowania Request na Response.
 Podłączyłem się do zewnętrznego serwisu `OpenWeatherMap API`, by móc pobierać aktualne dane pogodowe dla danego miasta.
-Endpointy projektu, pozwalają wyświetlać, tworzyć oraz usuwać dane z bazy danych za pomocą `GET`, `POST`, `PUT`, `DELETE`. Używam również AOP to przechwytywania błędów.
+Endpointy projektu, pozwalają wyświetlać, tworzyć oraz usuwać dane z bazy danych za pomocą `GET`, `POST`, `PUT`, `DELETE`. Używam również AOP do przechwytywania błędów.
 
 - **Połączenie z konsolą bazy danych**:
 ```
