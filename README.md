@@ -4,10 +4,10 @@
 Założenie projektu polega na możliwości tworzenia lotów i automatycznego dostosowania jego zależności na podstawie aktualnej pogody, jak również czasu lotu. Pozwala również na operacje `CRUD` pasażerów lotów.
 
 Projekt podzieliłem na 3 moduły `model`, `service`, `web` by był bardziej czytelny.
-Jest rozdzielony na 3 modele, znajdują się w nim relacje bazodanowe, które wykorzystują `Derived Query Methods`.
+Jest rozdzielony na warstwy oraz 5 modeli, znajdują się w nim relacje bazodanowe, które wykorzystują `Derived Query Methods`.
 Używam `MapStruct` do mapowania Request na Response.
-Podłączyłem się do `OpenWeatherMap API`, by móc pobierać aktualne dane pogodowe dla danego miasta.
-Endpointy projektu, pozwalają wyświetlać, tworzyć oraz usuwać dane z bazy danych za pomocą `GET`, `POST`, `PUT`, `DELETE`.
+Podłączyłem się do zewnętrznego serwisu `OpenWeatherMap API`, by móc pobierać aktualne dane pogodowe dla danego miasta.
+Endpointy projektu, pozwalają wyświetlać, tworzyć oraz usuwać dane z bazy danych za pomocą `GET`, `POST`, `PUT`, `DELETE`. Używam również AOP to przechwytywania błędów.
 
 - **Połączenie z konsolą bazy danych**:
 ```
