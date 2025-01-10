@@ -1,7 +1,7 @@
 # MPR-PROJEKT
 **MPR Projekt - flightmanagement**
 
-Założenie projektu polega na możliwości tworzenia lotów i automatycznego dostosowania jego zależności na podstawie aktualnej pogody, jak również czasu lotu. Pozwala również na operacje `CRUD` pasażerów lotów.
+Założenie projektu polega na możliwości tworzenia lotów i automatycznego dostosowania jego zależności na podstawie aktualnej pogody, jak również czasu lotu. Pozwala również na więcej czynności w tym na operacje `CRUD` pasażerów lotów.
 
 Projekt podzieliłem na 3 moduły `model`, `service`, `web` by był bardziej czytelny.
 Jest rozdzielony na warstwy oraz 5 modeli, znajdują się w nim relacje bazodanowe, które wykorzystują `Derived Query Methods`.
